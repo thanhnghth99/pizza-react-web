@@ -7,9 +7,9 @@ import "../styles/Navbar.css";
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
 
-  const toggleNavbar = () => {
-    setOpenLinks(!openLinks);
-  };
+  // const toggleNavbar = () => {
+  //   setOpenLinks(!openLinks);
+  // };
   return (
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
